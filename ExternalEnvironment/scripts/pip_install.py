@@ -19,7 +19,7 @@ def check_modules():
     """检查所有必需的Python模块是否可用"""
     # 需要检查的模块列表（使用实际导入名称）
     required_modules = [
-        "autogen",           # pyautogen
+        "autogen",           # ag2
         "autogen.agentchat.contrib.gpt_assistant_agent",  # autogen-ext
         "pandas",
         "PyQt6",
